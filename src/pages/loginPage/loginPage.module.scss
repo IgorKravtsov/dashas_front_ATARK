@@ -1,0 +1,38 @@
+.wrapper {
+  padding: 20px 0;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  color: grey;
+  margin-bottom: 60px;
+}
+
+
+.form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid var(--main-front-color);
+  border-radius: 15px;
+}
+
+.input {
+  margin-top: 18px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.link {
+  padding-top: 25px;
+  font-size: 14px;
+  margin-left: auto;
+  text-decoration: none;
+  transition: .4s all;
+  &:hover {
+   color: brown;
+  }
+}

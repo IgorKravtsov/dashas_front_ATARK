@@ -1,0 +1,60 @@
+.wrapper {
+  padding: 0 0 80px 0;
+}
+
+.form {
+  width: 800px;
+  min-height: 800px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: var(--main-front-color);
+  text-align: center;
+  cursor: pointer;
+  //font-weight: 700;
+  color: var(--main-text-color);
+  &_disabled {
+    background-color: darkgrey;
+    cursor: default;
+  }
+  &_save {
+    width: 300px;
+  }
+}
+
+
+
+.fertilisers {
+
+  &_title {
+    color: green;
+    font-size: 20px;
+  }
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--main-front-color);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+  }
+}
+
+.fertiliser_select_inputs_container {
+  border: 1px solid green;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-radius: 15px;
+}

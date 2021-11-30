@@ -1,0 +1,62 @@
+.title_btn_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.plantList {
+  position: relative;
+}
+
+.plantListItem {
+  display: grid;
+  grid-template-columns: .5fr 2fr 2fr;
+  //grid-auto-rows: 30px;
+  padding: 10px 0;
+  text-align: center;
+
+  &_grey {
+    background-color: darkgrey;
+  }
+
+  &_header {
+    display: grid;
+    grid-template-columns: .5fr 2fr 2fr;
+    grid-auto-rows: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    background-color: var(--main-front-color);
+  }
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+
+.edit_btn_wrapper {
+  margin: 0 auto;
+  //width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.no_plants {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: grey;
+
+  &_btn {
+    width: 100px;
+    height: 50px;
+  }
+}
