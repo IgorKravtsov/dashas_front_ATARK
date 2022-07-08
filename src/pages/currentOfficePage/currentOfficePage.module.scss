@@ -12,7 +12,7 @@
 
 .plantListItem {
   display: grid;
-  grid-template-columns: .5fr 2fr 2fr;
+  grid-template-columns: 0.5fr 2fr 2fr;
   //grid-auto-rows: 30px;
   padding: 10px 0;
   text-align: center;
@@ -23,7 +23,7 @@
 
   &_header {
     display: grid;
-    grid-template-columns: .5fr 2fr 2fr;
+    grid-template-columns: 0.5fr 2fr 2fr;
     grid-auto-rows: 30px;
     text-align: center;
     padding-top: 10px;
@@ -37,7 +37,6 @@
     flex-direction: column;
     justify-content: center;
   }
-
 }
 
 .edit_btn_wrapper {
@@ -59,4 +58,8 @@
     width: 100px;
     height: 50px;
   }
+}
+
+.redButton {
+  background-color: red;
 }

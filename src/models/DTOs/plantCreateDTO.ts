@@ -7,5 +7,5 @@ export interface PlantCreateDTO {
     pruningPeriod: number;
     officeId: number;
     userId: number;
-    fertilisers: FertiliserCreateDTO[];
+    fertilisers?: FertiliserCreateDTO[];
 }
